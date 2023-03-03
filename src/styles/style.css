@@ -1,0 +1,94 @@
+/*header css */
+header {
+  background-color: #ffe014;
+  vertical-align: middle;
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+
+/*footer css*/
+footer {
+  background-color: #ffe014;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.landingPage {
+  background-color: #444349;
+  height: 100vh;
+}
+
+/*Card Css*/
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article {
+  background-color: #4bbda6;
+  border-radius: 12px;
+  width: 250px;
+}
+
+/*Form Css*/
+
+input[type="text"] {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form {
+  color: white;
+}
+
+.error {
+  color: #ffe014;
+}
+
+.success {
+  color: #4bbda6;
+}
+
+/* common spacing classes -move to a diff file */
+.p-4 {
+  padding: 4px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.mg-t-8 {
+  margin-top: 8px;
+}
+
+.mg-t-12 {
+  margin-top: 12px;
+}
+
+.mg-8 {
+  margin: 8px;
+}
+
+.mg-12 {
+  margin: 12px;
+}
